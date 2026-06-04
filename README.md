@@ -1,8 +1,8 @@
-# 🐾 Animals App
+# Animals App
 
 Aplicación Android desarrollada con **Jetpack Compose** que consume la [Animals API](https://animals.juanfrausto.com/api/) para mostrar información sobre animales y sus hábitats naturales.
 
-## 📱 Pantallas
+## Pantallas
 
 | Pantalla | Descripción |
 |---|---|
@@ -11,7 +11,7 @@ Aplicación Android desarrollada con **Jetpack Compose** que consume la [Animals
 | Detalle de Animal | Nombre, imagen, descripción, hechos interesantes y galería (carrusel) |
 | Detalle de Ambiente | Nombre, imagen, descripción y lista horizontal de animales del ambiente |
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **Jetpack Compose** — UI declarativa
 - **Navigation Compose** — Navegación entre pantallas
@@ -20,7 +20,19 @@ Aplicación Android desarrollada con **Jetpack Compose** que consume la [Animals
 - **ViewModel + StateFlow** — Manejo de estado reactivo
 - **Material 3** — Componentes y theming
 
-## 🚀 Cómo correr la aplicación
+## Cómo correr la aplicación
+1. Clona el repositorio:
+   ```bash
+   git clone 'https://github.com/Yass1224/Animals_App.git'
+   cd AnimalsApp
+   ```
+2. Abrie el proyecto en **Android Studio**
+
+3. Espera a que Gradle sincronice las dependencias
+
+4. Conectar un dispositivo físico o inicia un emulador (API 24+)
+
+5. Presiona **Run** ▶️ 
 
 ### Requisitos previos
 - Android Studio Hedgehog (2023.1.1) o superior
@@ -28,23 +40,8 @@ Aplicación Android desarrollada con **Jetpack Compose** que consume la [Animals
 - Android SDK 24+
 - Conexión a internet (para consumir la API)
 
-### Pasos
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/TU_USUARIO/AnimalsApp.git
-   cd AnimalsApp
-   ```
-
-2. Abre el proyecto en **Android Studio**
-
-3. Espera a que Gradle sincronice las dependencias
-
-4. Conecta un dispositivo físico o inicia un emulador (API 24+)
-
-5. Presiona **Run** ▶️ o usa el atajo `Shift + F10`
-
-## 🌐 API
+## API
 
 - **Base URL:** `https://animals.juanfrausto.com/api/`
 - `GET /animals` — Lista de todos los animales
@@ -53,7 +50,7 @@ Aplicación Android desarrollada con **Jetpack Compose** que consume la [Animals
 - `GET /enviroment` — Lista de ambientes
 - `GET /enviroment/{id}` — Detalle de un ambiente
 
-## 🎨 Diseño
+## Diseño
 
 La app usa un tema oscuro con paleta verde oscuro y amarillo neón, inspirada en el diseño propuesto del examen.
 
